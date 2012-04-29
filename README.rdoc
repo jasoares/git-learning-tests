@@ -1,4 +1,4 @@
-= GIT Learning Tests
+= Git Learning Tests
 
 == Git repository created to learn git
 
