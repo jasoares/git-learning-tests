@@ -1,6 +1,6 @@
 = Git Learning Tests
 
-== Git Version Control System tests to learn
+== Tests to learn the ins and outs of the Git Distributed Version Control System
 
 I'll use this repository to make tests with git, branch merging, remote tracking, staging and unstaging files,
 revert commits, rewrite history, etc.
