@@ -7,4 +7,4 @@ revert commits, rewrite history, etc.
 
 Test descriptions will be provided later
 
-== João Soares &copy;2012
+==== João Soares ©2012
