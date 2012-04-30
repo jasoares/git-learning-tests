@@ -7,10 +7,16 @@ revert commits, rewrite history, etc.
 
 Test descriptions will be provided later
 
-Notes on learning:
-  Git aliases
-  Git core editor
-  Git diff tool
-  Git mergetool
+==== Notes on learning:
+Git difftool and mergetool configured to diffmerge as below:
+  [diff]
+    tool = diffmerge
+  [difftool "diffmerge"]
+    cmd = diffmerge \"$LOCAL\" \"$REMOTE\"
+  [merge]
+    tool = diffmerge
+  [mergetool "diffmerge"]
+    cmd = "diffmerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$(if test -f \"$BASE\"; then echo \"$BASE\"; else echo \"$LOCAL\$
+    trustExitCode = true
 
 ==== João Soares ©2012
