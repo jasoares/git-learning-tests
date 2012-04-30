@@ -4,3 +4,5 @@
 
 I'll use this repository to make tests with git, branch merging, remote tracking, staging and unstaging files,
 revert commits, rewrite history, etc.
+
+== João Soares &copy; 2012
