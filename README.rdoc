@@ -7,4 +7,10 @@ revert commits, rewrite history, etc.
 
 Test descriptions will be provided later
 
+Notes on learning:
+  Git aliases
+  Git core editor
+  Git diff tool
+  Git mergetool
+
 ==== João Soares ©2012
