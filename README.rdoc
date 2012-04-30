@@ -31,6 +31,13 @@ Test descriptions will be provided later
   git push <remote> <local_branch>:<remote_branch> (for different names in local and remote branches, use -u to set tracking branches)
   more to follow...
 
+== My Git cheatsheet
+  git reset --hard HEAD~n (HEAD~3 to undo 3 commits)
+  git reset HEAD <file> (to unstage changes - unstage alias)
+  git checkout -- <file> (for discarding changes on a specific file)
+  git remote show <remote> (for showing remote branches tracking information)
+  git push <remote> <local_branch>:<remote_branch> (for different names in local and remote branches, use -u to set tracking branches)
+
 ==== Notes on learning:
 Git difftool and mergetool configured to diffmerge as below:
   [diff]
