@@ -6,3 +6,5 @@ I'll use this repository to make tests with git, branch merging, remote tracking
 revert commits, rewrite history, etc.
 
 Test descriptions will be provided later
+
+== João Soares &copy;2012
