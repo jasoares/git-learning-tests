@@ -7,6 +7,30 @@ revert commits, rewrite history, etc.
 
 Test descriptions will be provided later
 
+== Quick Reference:
+  git reset --hard HEAD^ (or HEAD~1 to undo one commit)
+  git reset --hard HEAD~n (HEAD~3 to undo 3 commits)
+  git reset HEAD <file> (to unstage changes - unstage alias)
+  git checkout -- . (for discarding all changes)
+  git checkout -- <file> (for discarding changes on a specific file)
+  git aliases
+    checkout = co
+    branch = br
+    commit = ci
+    fetch = ft
+    fetch --all = fta
+    reset HEAD = unstage
+  git core editor
+  git diff tool
+  git mergetool
+  git remote rm <remote>
+  git remote rename <current name> <new name>
+  git remote set-url <remote> <new-url>
+  git remote show <remote> (for showing remote branches tracking information)
+  git checkout -b <branch>
+  git push <remote> <local_branch>:<remote_branch> (for different names in local and remote branches, use -u to set tracking branches)
+  more to follow...
+
 ==== Notes on learning:
 Git difftool and mergetool configured to diffmerge as below:
   [diff]
