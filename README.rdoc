@@ -1,11 +1,11 @@
 = Git Learning Tests
 
-== Tests to learn the ins and outs of the Git Distributed Version Control System
+=== Tests to learn the ins and outs of the Git Distributed Version Control System
 
 I'll use this repository to make tests with git, branch merging, remote tracking, staging and unstaging files,
 revert commits, rewrite history, etc.
 
-== Quick Reference:
+=== Quick Reference:
   git reset --hard HEAD^ (or HEAD~1 to undo one commit)
   git reset --hard HEAD~n (HEAD~3 to undo 3 commits)
   git reset HEAD <file> (to unstage changes - unstage alias)
