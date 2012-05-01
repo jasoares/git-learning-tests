@@ -2,10 +2,8 @@
 
 == Tests to learn the ins and outs of the Git Distributed Version Control System
 
-I'll use this repository to make tests with git, branch merging, remote tracking, staging and unstaging files,
-revert commits, rewrite history, etc.
-
-Test descriptions will be provided later
+This repository is used to make tests with git, branch merging and rebasing, remote tracking, staging and unstaging files,
+revert commits, rewrite history, squash commits, discard changes from the working directory, etc
 
 == Quick Reference:
   git reset --hard HEAD^ (or HEAD~1 to undo one commit)
