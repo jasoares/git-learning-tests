@@ -37,6 +37,7 @@ revert commits, rewrite history, squash commits, discard changes from the workin
   git push <remote> <local_branch>:<remote_branch> (for different names in local and remote branches, use -u to set tracking branches)
   git checkout -b <new_branch> <based_on_branch>
   git rebase --onto <new_base> <mid_branch> <rebased_branch>
+  git merge --no-commit --squash <topic_branch>
 
 ==== Notes on learning:
 Git difftool and mergetool configured to diffmerge as below:
