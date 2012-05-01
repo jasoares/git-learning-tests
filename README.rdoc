@@ -37,6 +37,8 @@ Test descriptions will be provided later
   git checkout -- <file> (for discarding changes on a specific file)
   git remote show <remote> (for showing remote branches tracking information)
   git push <remote> <local_branch>:<remote_branch> (for different names in local and remote branches, use -u to set tracking branches)
+  git checkout -b <new_branch> <based_on_branch>
+  git rebase --onto <new_base> <mid_branch> <rebased_branch>
 
 ==== Notes on learning:
 Git difftool and mergetool configured to diffmerge as below:
