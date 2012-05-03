@@ -20,7 +20,6 @@ revert commits, rewrite history, squash commits, discard changes from the workin
     reset HEAD = unstage
   git remote set-url <remote> <new-url>
   git remote show <remote> (for showing remote branches tracking information)
-  git checkout -b <branch>
   git push <remote> <local_branch>:<remote_branch> (for different names in local and remote branches, use -u to set tracking branches)
   more to follow...
 
