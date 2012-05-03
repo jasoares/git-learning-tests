@@ -12,12 +12,13 @@ revert commits, rewrite history, squash commits, discard changes from the workin
   git checkout -- . (for discarding all changes)
   git checkout -- <file> (for discarding changes on a specific file)
   git aliases
-    checkout = co
-    branch = br
-    commit = ci
-    fetch = ft
-    fetch --all = fta
-    reset HEAD = unstage
+    co = checkout
+    br = branch
+    ci = commit
+    ft = fetch
+    fta = fetch --all
+    unstage = reset HEAD
+    stash-unapply = !git stash show -p | git apply -R
   git remote set-url <remote> <new-url>
   git remote show <remote> (for showing remote branches tracking information)
   git push <remote> <local_branch>:<remote_branch> (for different names in local and remote branches, use -u to set tracking branches)
